@@ -22,7 +22,7 @@ The status codes are displayed in color:
 - green for success (< 300)
 - magenta for redirect (<400)
 - red for failure (<600)
-- blank otherwise
+- white otherwise
 
 
 ## Requirements
