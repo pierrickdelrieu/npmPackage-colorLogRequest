@@ -1,8 +1,9 @@
 {
-    "name": "color-log-requests-ext",
-    "version": "1.0.0",
+    "name": "color-log-requests",
+    "version": "1.0.1",
     "description": "This package is a vulnerable package and is created for educational purposes.",
     "main": "index.js",
+    "repository": "https://github.com/pierrickdelrieu/npmPackage-colorLogRequest",
     "scripts": {
         "start": "node index.js"
     },
