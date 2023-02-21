@@ -12,9 +12,7 @@ const logger = require('color-log-requests');
 app.use(logger);
 ```
 
-The result is :  
-![Result](https://github.com/pierrickdelrieu/pic_vulnerable/blob/main/demo.png)
-
+The result is in the format:  
 
 ```bash
 <resStatusCode> <resContentLength> <datetime> <reqMethod> <reqURL> <reqHttpVersion> <reqUserAgent> <reqIp>
