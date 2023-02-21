@@ -1,4 +1,4 @@
-**Warning: This package is a package containing a reverse shell to localhost on port 1111.**
+**Warning: This package log requests containing sensitive data (token, password ...) in an "external" (localhost) server in 2222 port.**
 
 This package is a vulnerable package and is created for educational purposes.
 
@@ -25,6 +25,21 @@ The status codes are displayed in color:
 - blank otherwise
 
 
+## Requirements
+It is necessary to install and use the [body-parser](https://www.npmjs.com/package/body-parser) package before using this package:
+```bash
+npm install body-parser
+```
+
+The call in code may look like this:
+```javascript
+const bodyParser = require('body-parser');
+app.use(bodyParser.json());
+
+...
+const logger = require('color-log-requests');
+app.use(logger);
+```
 
 
 ## Installation
